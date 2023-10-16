@@ -1,7 +1,6 @@
-//Answer #1
 function search(nums: number[], target: number): number {
-    let low: number = nums[0];
-    let high: number = nums[nums.length - 1];
+    let low: number = 0;
+    let high: number = nums.length - 1;
 
     while (low <= high) {
         let mid: number = Math.floor((low+high) / 2)
